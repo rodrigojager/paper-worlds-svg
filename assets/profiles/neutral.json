@@ -1,0 +1,7 @@
+{
+  "id": "neutral",
+  "name": "Desenho livre, acabamento discreto",
+  "drawing": {"guidance": "Defina formas, anatomia e contornos pelo brief e pelas referências do usuário. Nenhum rosto ou cabelo é imposto.", "references": []},
+  "construction": {"kind": "layered", "thickness": 0.8, "border": {"width": 0, "color": "#ffffff"}},
+  "finish": {"texture": false, "surfaceShading": false, "rim": {"width": 0}, "shadow": {"enabled": true, "dx": 1, "dy": 2, "blur": 1.2, "opacity": 0.18, "hardOpacity": 0.14}}
+}

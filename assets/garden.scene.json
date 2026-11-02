@@ -1,0 +1,2069 @@
+{
+  "version": 1,
+  "id": "garden-of-encounters",
+  "title": "Jardim dos encontros",
+  "viewBox": [
+    0,
+    0,
+    1000,
+    1000
+  ],
+  "seed": 46,
+  "texture": true,
+  "layers": [
+    {
+      "id": "book-cover",
+      "label": "Book cover",
+      "assembly": "book",
+      "pivot": [
+        500,
+        815
+      ],
+      "elevation": 0,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M88 695Q266 661 492 754Q710 636 910 683L924 846Q716 810 502 936Q278 846 77 857Z",
+          "fill": "#293e50"
+        }
+      ]
+    },
+    {
+      "id": "book-cover-left",
+      "label": "Book cover left",
+      "assembly": "book",
+      "pivot": [
+        492,
+        754
+      ],
+      "elevation": 2,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M88 695Q275 667 492 754L502 922Q278 829 91 844Z",
+          "fill": "#416b70"
+        }
+      ]
+    },
+    {
+      "id": "book-cover-right",
+      "label": "Book cover right",
+      "assembly": "book",
+      "pivot": [
+        492,
+        754
+      ],
+      "elevation": 2,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M492 754Q710 636 910 683L911 831Q705 803 502 922Z",
+          "fill": "#ce9e52"
+        }
+      ]
+    },
+    {
+      "id": "page-left-0",
+      "label": "Page left 0",
+      "assembly": "book",
+      "pivot": [
+        492,
+        754
+      ],
+      "elevation": 1,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M103 683Q294 668 492 754L501 901Q282 810 99 828Z",
+          "fill": "#e5b591"
+        }
+      ]
+    },
+    {
+      "id": "page-right-0",
+      "label": "Page right 0",
+      "assembly": "book",
+      "pivot": [
+        492,
+        754
+      ],
+      "elevation": 1,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M492 754Q694 639 896 669L906 805Q700 782 501 901Z",
+          "fill": "#d5c9a9"
+        }
+      ]
+    },
+    {
+      "id": "page-left-1",
+      "label": "Page left 1",
+      "assembly": "book",
+      "pivot": [
+        492,
+        754
+      ],
+      "elevation": 1,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M103 675Q294 660 492 746L501 893Q282 802 99 820Z",
+          "fill": "#f7ead2"
+        }
+      ]
+    },
+    {
+      "id": "page-right-1",
+      "label": "Page right 1",
+      "assembly": "book",
+      "pivot": [
+        492,
+        754
+      ],
+      "elevation": 1,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M492 746Q694 631 896 661L906 797Q700 774 501 893Z",
+          "fill": "#f7ead2"
+        }
+      ]
+    },
+    {
+      "id": "page-left-2",
+      "label": "Page left 2",
+      "assembly": "book",
+      "pivot": [
+        492,
+        754
+      ],
+      "elevation": 1,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M103 667Q294 652 492 738L501 885Q282 794 99 812Z",
+          "fill": "#e5b591"
+        }
+      ]
+    },
+    {
+      "id": "page-right-2",
+      "label": "Page right 2",
+      "assembly": "book",
+      "pivot": [
+        492,
+        754
+      ],
+      "elevation": 1,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M492 738Q694 623 896 653L906 789Q700 766 501 885Z",
+          "fill": "#d5c9a9"
+        }
+      ]
+    },
+    {
+      "id": "page-left-3",
+      "label": "Page left 3",
+      "assembly": "book",
+      "pivot": [
+        492,
+        754
+      ],
+      "elevation": 1,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M103 659Q294 644 492 730L501 877Q282 786 99 804Z",
+          "fill": "#f7ead2"
+        }
+      ]
+    },
+    {
+      "id": "page-right-3",
+      "label": "Page right 3",
+      "assembly": "book",
+      "pivot": [
+        492,
+        754
+      ],
+      "elevation": 1,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M492 730Q694 615 896 645L906 781Q700 758 501 877Z",
+          "fill": "#f7ead2"
+        }
+      ]
+    },
+    {
+      "id": "page-fold-left",
+      "label": "Page fold left",
+      "assembly": "book",
+      "pivot": [
+        492,
+        730
+      ],
+      "elevation": 4,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M492 730Q288 625 113 659Q290 693 492 867Z",
+          "fill": "#fff3dc"
+        }
+      ]
+    },
+    {
+      "id": "page-fold-right",
+      "label": "Page fold right",
+      "assembly": "book",
+      "pivot": [
+        492,
+        730
+      ],
+      "elevation": 4,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M492 730Q707 605 890 646Q699 662 492 867Z",
+          "fill": "#ead7b3"
+        }
+      ]
+    },
+    {
+      "id": "hill-back",
+      "label": "Hill back",
+      "assembly": "landscape",
+      "pivot": [
+        495,
+        698
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M181 665Q282 508 409 583Q559 472 713 561Q790 586 834 660Q645 633 493 757Q318 674 181 665Z",
+          "fill": "#78968a"
+        }
+      ]
+    },
+    {
+      "id": "hill-mid",
+      "label": "Hill mid",
+      "assembly": "landscape",
+      "pivot": [
+        495,
+        698
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M182 665Q307 548 429 647Q602 519 831 659Q635 645 493 757Q313 680 182 665Z",
+          "fill": "#416b70"
+        }
+      ]
+    },
+    {
+      "id": "hill-front",
+      "label": "Hill front",
+      "assembly": "landscape",
+      "pivot": [
+        495,
+        718
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M191 674Q351 602 492 727Q625 628 822 669Q635 684 493 778Q330 695 191 674Z",
+          "fill": "#293e50"
+        }
+      ]
+    },
+    {
+      "id": "winding-path",
+      "label": "Winding path",
+      "assembly": "landscape",
+      "pivot": [
+        517,
+        713
+      ],
+      "elevation": 2,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M493 779Q445 716 535 691Q598 672 547 646Q504 623 514 579L545 580Q535 614 575 635Q654 682 567 711Q501 733 529 758Z",
+          "fill": "#ce9e52"
+        }
+      ]
+    },
+    {
+      "id": "path-highlight",
+      "label": "Path highlight",
+      "assembly": "landscape",
+      "pivot": [
+        517,
+        713
+      ],
+      "elevation": 1,
+      "thickness": 0.5,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M493 779Q445 716 535 691Q598 672 547 646Q504 623 514 579L525 579Q513 621 561 643Q616 676 545 700Q477 725 506 772Z",
+          "fill": "#f7ead2"
+        }
+      ]
+    },
+    {
+      "id": "stem-left",
+      "label": "Stem left",
+      "assembly": "stems",
+      "pivot": [
+        520,
+        630
+      ],
+      "elevation": 2,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M434 651C366 501 350 369 294 273L302 269C365 373 377 511 444 649Z",
+          "fill": "#416b70"
+        }
+      ]
+    },
+    {
+      "id": "stem-right",
+      "label": "Stem right",
+      "assembly": "stems",
+      "pivot": [
+        520,
+        630
+      ],
+      "elevation": 2,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M583 646C642 514 667 377 741 260L748 265C678 391 653 525 592 648Z",
+          "fill": "#416b70"
+        }
+      ]
+    },
+    {
+      "id": "stem-upper",
+      "label": "Stem upper",
+      "assembly": "stems",
+      "pivot": [
+        520,
+        630
+      ],
+      "elevation": 2,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M521 631C512 449 531 325 572 199L580 202C543 339 526 459 531 632Z",
+          "fill": "#78968a"
+        }
+      ]
+    },
+    {
+      "id": "leaf-1",
+      "label": "Leaf 1",
+      "assembly": "foliage",
+      "pivot": [
+        379,
+        484
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M379.00 484.00C333.33 505.74 259.11 466.82 233.08 415.96C285.67 406.05 358.44 444.29 379.00 484.00Z",
+          "fill": "#293e50"
+        }
+      ]
+    },
+    {
+      "id": "leaf-1-fold",
+      "label": "Leaf 1 fold",
+      "assembly": "foliage",
+      "pivot": [
+        379,
+        484
+      ],
+      "elevation": 1,
+      "thickness": 0.5,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M379.00 484.00Q310.28 448.51 233.08 415.96C285.67 406.05 358.44 444.29 379.00 484.00Z",
+          "fill": "#416b70"
+        }
+      ]
+    },
+    {
+      "id": "leaf-2",
+      "label": "Leaf 2",
+      "assembly": "foliage",
+      "pivot": [
+        360,
+        418
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M360.00 418.00C317.08 408.67 287.30 342.72 296.90 294.15C338.17 315.24 367.32 379.95 360.00 418.00Z",
+          "fill": "#416b70"
+        }
+      ]
+    },
+    {
+      "id": "leaf-2-fold",
+      "label": "Leaf 2 fold",
+      "assembly": "foliage",
+      "pivot": [
+        360,
+        418
+      ],
+      "elevation": 1,
+      "thickness": 0.5,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M360.00 418.00Q332.13 357.32 296.90 294.15C338.17 315.24 367.32 379.95 360.00 418.00Z",
+          "fill": "#78968a"
+        }
+      ]
+    },
+    {
+      "id": "leaf-3",
+      "label": "Leaf 3",
+      "assembly": "foliage",
+      "pivot": [
+        335,
+        355
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M335.00 355.00C300.27 372.85 241.60 344.69 219.94 306.16C260.38 297.25 317.89 324.92 335.00 355.00Z",
+          "fill": "#78968a"
+        }
+      ]
+    },
+    {
+      "id": "leaf-3-fold",
+      "label": "Leaf 3 fold",
+      "assembly": "foliage",
+      "pivot": [
+        335,
+        355
+      ],
+      "elevation": 1,
+      "thickness": 0.5,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M335.00 355.00Q280.71 329.35 219.94 306.16C260.38 297.25 317.89 324.92 335.00 355.00Z",
+          "fill": "#416b70"
+        }
+      ]
+    },
+    {
+      "id": "leaf-4",
+      "label": "Leaf 4",
+      "assembly": "foliage",
+      "pivot": [
+        411,
+        564
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M411.00 564.00C383.43 596.52 313.30 592.00 276.02 561.64C312.93 535.88 381.71 540.39 411.00 564.00Z",
+          "fill": "#416b70"
+        }
+      ]
+    },
+    {
+      "id": "leaf-4-fold",
+      "label": "Leaf 4 fold",
+      "assembly": "foliage",
+      "pivot": [
+        411,
+        564
+      ],
+      "elevation": 1,
+      "thickness": 0.5,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M411.00 564.00Q346.26 560.23 276.02 561.64C312.93 535.88 381.71 540.39 411.00 564.00Z",
+          "fill": "#293e50"
+        }
+      ]
+    },
+    {
+      "id": "leaf-5",
+      "label": "Leaf 5",
+      "assembly": "foliage",
+      "pivot": [
+        644,
+        482
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M644.00 482.00C647.89 432.33 716.89 390.49 772.50 395.33C755.25 444.59 687.54 485.56 644.00 482.00Z",
+          "fill": "#416b70"
+        }
+      ]
+    },
+    {
+      "id": "leaf-5-fold",
+      "label": "Leaf 5 fold",
+      "assembly": "foliage",
+      "pivot": [
+        644,
+        482
+      ],
+      "elevation": 1,
+      "thickness": 0.5,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M644.00 482.00Q707.43 442.98 772.50 395.33C755.25 444.59 687.54 485.56 644.00 482.00Z",
+          "fill": "#78968a"
+        }
+      ]
+    },
+    {
+      "id": "leaf-6",
+      "label": "Leaf 6",
+      "assembly": "foliage",
+      "pivot": [
+        676,
+        399
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M676.00 399.00C657.70 357.80 693.30 289.49 738.55 264.87C746.31 312.58 711.33 379.55 676.00 399.00Z",
+          "fill": "#293e50"
+        }
+      ]
+    },
+    {
+      "id": "leaf-6-fold",
+      "label": "Leaf 6 fold",
+      "assembly": "foliage",
+      "pivot": [
+        676,
+        399
+      ],
+      "elevation": 1,
+      "thickness": 0.5,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M676.00 399.00Q708.49 335.77 738.55 264.87C746.31 312.58 711.33 379.55 676.00 399.00Z",
+          "fill": "#416b70"
+        }
+      ]
+    },
+    {
+      "id": "leaf-7",
+      "label": "Leaf 7",
+      "assembly": "foliage",
+      "pivot": [
+        706,
+        334
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M706.00 334.00C724.74 302.08 784.36 296.63 819.88 318.00C792.36 345.29 733.88 350.58 706.00 334.00Z",
+          "fill": "#78968a"
+        }
+      ]
+    },
+    {
+      "id": "leaf-7-fold",
+      "label": "Leaf 7 fold",
+      "assembly": "foliage",
+      "pivot": [
+        706,
+        334
+      ],
+      "elevation": 1,
+      "thickness": 0.5,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M706.00 334.00Q760.99 328.62 819.88 318.00C792.36 345.29 733.88 350.58 706.00 334.00Z",
+          "fill": "#416b70"
+        }
+      ]
+    },
+    {
+      "id": "leaf-8",
+      "label": "Leaf 8",
+      "assembly": "foliage",
+      "pivot": [
+        610,
+        554
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M610.00 554.00C634.91 510.57 716.16 501.65 765.07 529.44C728.08 566.89 648.39 575.56 610.00 554.00Z",
+          "fill": "#293e50"
+        }
+      ]
+    },
+    {
+      "id": "leaf-8-fold",
+      "label": "Leaf 8 fold",
+      "assembly": "foliage",
+      "pivot": [
+        610,
+        554
+      ],
+      "elevation": 1,
+      "thickness": 0.5,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M610.00 554.00Q684.92 545.29 765.07 529.44C728.08 566.89 648.39 575.56 610.00 554.00Z",
+          "fill": "#416b70"
+        }
+      ]
+    },
+    {
+      "id": "leaf-9",
+      "label": "Leaf 9",
+      "assembly": "foliage",
+      "pivot": [
+        542,
+        326
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M542.00 326.00C502.44 327.08 463.70 276.09 462.94 231.78C503.28 241.28 541.23 291.32 542.00 326.00Z",
+          "fill": "#416b70"
+        }
+      ]
+    },
+    {
+      "id": "leaf-9-fold",
+      "label": "Leaf 9 fold",
+      "assembly": "foliage",
+      "pivot": [
+        542,
+        326
+      ],
+      "elevation": 1,
+      "thickness": 0.5,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M542.00 326.00Q505.95 279.18 462.94 231.78C503.28 241.28 541.23 291.32 542.00 326.00Z",
+          "fill": "#78968a"
+        }
+      ]
+    },
+    {
+      "id": "leaf-10",
+      "label": "Leaf 10",
+      "assembly": "foliage",
+      "pivot": [
+        554,
+        273
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M554.00 273.00C561.88 241.03 610.92 222.05 646.27 231.92C629.82 262.01 581.70 280.59 554.00 273.00Z",
+          "fill": "#78968a"
+        }
+      ]
+    },
+    {
+      "id": "leaf-10-fold",
+      "label": "Leaf 10 fold",
+      "assembly": "foliage",
+      "pivot": [
+        554,
+        273
+      ],
+      "elevation": 1,
+      "thickness": 0.5,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M554.00 273.00Q599.13 255.18 646.27 231.92C629.82 262.01 581.70 280.59 554.00 273.00Z",
+          "fill": "#416b70"
+        }
+      ]
+    },
+    {
+      "id": "portal-back",
+      "label": "Portal back",
+      "assembly": "portal",
+      "pivot": [
+        506,
+        617
+      ],
+      "elevation": 5,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M410 617L410 430C410 289 602 289 602 430L602 617Z",
+          "fill": "#293e50"
+        }
+      ]
+    },
+    {
+      "id": "portal-outer",
+      "label": "Portal outer",
+      "assembly": "portal",
+      "pivot": [
+        506,
+        610
+      ],
+      "elevation": 2,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M424 610L424 429C424 308 588 308 588 429L588 610Z",
+          "fill": "#ce9e52"
+        }
+      ]
+    },
+    {
+      "id": "portal-return",
+      "label": "Portal return",
+      "assembly": "portal",
+      "pivot": [
+        506,
+        609
+      ],
+      "elevation": 2,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M439 609L439 431C439 330 574 330 574 431L574 609Z",
+          "fill": "#f7ead2"
+        }
+      ]
+    },
+    {
+      "id": "portal-opening",
+      "label": "Portal opening",
+      "assembly": "portal",
+      "pivot": [
+        508,
+        606
+      ],
+      "elevation": 1,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M455 606L455 433C455 355 560 355 560 433L560 606Z",
+          "fill": "#416b70"
+        }
+      ]
+    },
+    {
+      "id": "door-left-fold",
+      "label": "Door left fold",
+      "assembly": "portal",
+      "pivot": [
+        455,
+        520
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M455 434L495 458L495 587L455 606Z",
+          "fill": "#d97869"
+        }
+      ]
+    },
+    {
+      "id": "door-left-inner",
+      "label": "Door left inner",
+      "assembly": "portal",
+      "pivot": [
+        455,
+        520
+      ],
+      "elevation": 1,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M464 452L484 465L484 573L464 586Z",
+          "fill": "#e5b591"
+        }
+      ]
+    },
+    {
+      "id": "door-handle",
+      "label": "Door handle",
+      "assembly": "portal",
+      "pivot": [
+        487,
+        525
+      ],
+      "elevation": 2,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "circle",
+          "cx": 487,
+          "cy": 525,
+          "r": 3.4,
+          "fill": "#f7ead2"
+        }
+      ]
+    },
+    {
+      "id": "portal-sun",
+      "label": "Portal sun",
+      "assembly": "portal",
+      "pivot": [
+        527,
+        425
+      ],
+      "elevation": 2,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "circle",
+          "cx": 527,
+          "cy": 425,
+          "r": 22,
+          "fill": "#e5b591"
+        }
+      ]
+    },
+    {
+      "id": "portal-horizon",
+      "label": "Portal horizon",
+      "assembly": "portal",
+      "pivot": [
+        528,
+        570
+      ],
+      "elevation": 1,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M496 545Q529 496 560 538L560 606L496 606Z",
+          "fill": "#78968a"
+        }
+      ]
+    },
+    {
+      "id": "portal-threshold",
+      "label": "Portal threshold",
+      "assembly": "portal",
+      "pivot": [
+        508,
+        608
+      ],
+      "elevation": 2,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M443 608L574 608L590 624L430 624Z",
+          "fill": "#f7ead2"
+        }
+      ]
+    },
+    {
+      "id": "coral-flower-petal-1",
+      "label": "Coral flower petal 1",
+      "assembly": "coral-flower",
+      "pivot": [
+        315,
+        303
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M315.00 303.00C284.98 332.97 234.51 314.64 215.99 274.61C250.90 253.76 300.37 271.80 315.00 303.00Z",
+          "fill": "#d97869"
+        }
+      ]
+    },
+    {
+      "id": "coral-flower-petal-1-fold",
+      "label": "Coral flower petal 1 fold",
+      "assembly": "coral-flower",
+      "pivot": [
+        315,
+        303
+      ],
+      "elevation": 1,
+      "thickness": 0.5,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M315.00 303.00Q268.29 286.52 215.99 274.61C250.90 253.76 300.37 271.80 315.00 303.00Z",
+          "fill": "#e5b591"
+        }
+      ]
+    },
+    {
+      "id": "coral-flower-petal-2",
+      "label": "Coral flower petal 2",
+      "assembly": "coral-flower",
+      "pivot": [
+        315,
+        303
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M315.00 303.00C273.42 291.07 262.00 234.14 286.16 195.37C322.60 216.75 333.73 272.60 315.00 303.00Z",
+          "fill": "#e5b591"
+        }
+      ]
+    },
+    {
+      "id": "coral-flower-petal-2-fold",
+      "label": "Coral flower petal 2 fold",
+      "assembly": "coral-flower",
+      "pivot": [
+        315,
+        303
+      ],
+      "elevation": 1,
+      "thickness": 0.5,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M315.00 303.00Q304.02 250.57 286.16 195.37C322.60 216.75 333.73 272.60 315.00 303.00Z",
+          "fill": "#b55f64"
+        }
+      ]
+    },
+    {
+      "id": "coral-flower-petal-3",
+      "label": "Coral flower petal 3",
+      "assembly": "coral-flower",
+      "pivot": [
+        315,
+        303
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M315.00 303.00C301.66 263.43 339.00 230.11 381.68 233.95C385.01 273.20 348.34 305.84 315.00 303.00Z",
+          "fill": "#b55f64"
+        }
+      ]
+    },
+    {
+      "id": "coral-flower-petal-3-fold",
+      "label": "Coral flower petal 3 fold",
+      "assembly": "coral-flower",
+      "pivot": [
+        315,
+        303
+      ],
+      "elevation": 1,
+      "thickness": 0.5,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M315.00 303.00Q349.14 271.92 381.68 233.95C385.01 273.20 348.34 305.84 315.00 303.00Z",
+          "fill": "#d97869"
+        }
+      ]
+    },
+    {
+      "id": "coral-flower-petal-4",
+      "label": "Coral flower petal 4",
+      "assembly": "coral-flower",
+      "pivot": [
+        315,
+        303
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M315.00 303.00C342.91 271.39 392.95 286.75 412.84 325.59C379.75 348.39 330.69 333.26 315.00 303.00Z",
+          "fill": "#d97869"
+        }
+      ]
+    },
+    {
+      "id": "coral-flower-petal-4-fold",
+      "label": "Coral flower petal 4 fold",
+      "assembly": "coral-flower",
+      "pivot": [
+        315,
+        303
+      ],
+      "elevation": 1,
+      "thickness": 0.5,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M315.00 303.00Q361.29 316.73 412.84 325.59C379.75 348.39 330.69 333.26 315.00 303.00Z",
+          "fill": "#e5b591"
+        }
+      ]
+    },
+    {
+      "id": "coral-flower-petal-5",
+      "label": "Coral flower petal 5",
+      "assembly": "coral-flower",
+      "pivot": [
+        315,
+        303
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M315.00 303.00C357.20 312.88 371.70 369.50 349.66 409.68C312.09 390.04 297.94 334.49 315.00 303.00Z",
+          "fill": "#e5b591"
+        }
+      ]
+    },
+    {
+      "id": "coral-flower-petal-5-fold",
+      "label": "Coral flower petal 5 fold",
+      "assembly": "coral-flower",
+      "pivot": [
+        315,
+        303
+      ],
+      "elevation": 1,
+      "thickness": 0.5,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M315.00 303.00Q328.82 355.12 349.66 409.68C312.09 390.04 297.94 334.49 315.00 303.00Z",
+          "fill": "#b55f64"
+        }
+      ]
+    },
+    {
+      "id": "coral-flower-petal-6",
+      "label": "Coral flower petal 6",
+      "assembly": "coral-flower",
+      "pivot": [
+        315,
+        303
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M315.00 303.00C330.13 342.11 293.91 378.12 250.73 376.93C245.70 337.51 281.27 302.24 315.00 303.00Z",
+          "fill": "#b55f64"
+        }
+      ]
+    },
+    {
+      "id": "coral-flower-petal-6-fold",
+      "label": "Coral flower petal 6 fold",
+      "assembly": "coral-flower",
+      "pivot": [
+        315,
+        303
+      ],
+      "elevation": 1,
+      "thickness": 0.5,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M315.00 303.00Q281.91 336.54 250.73 376.93C245.70 337.51 281.27 302.24 315.00 303.00Z",
+          "fill": "#d97869"
+        }
+      ]
+    },
+    {
+      "id": "coral-flower-heart",
+      "label": "Coral flower heart",
+      "assembly": "coral-flower",
+      "pivot": [
+        315,
+        303
+      ],
+      "elevation": 2,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "circle",
+          "cx": 315,
+          "cy": 303,
+          "r": 25.75,
+          "fill": "#ce9e52"
+        }
+      ]
+    },
+    {
+      "id": "coral-flower-stamen-1",
+      "label": "Coral flower stamen 1",
+      "assembly": "coral-flower",
+      "pivot": [
+        331.48,
+        303.0
+      ],
+      "elevation": 2,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "circle",
+          "cx": 331.48,
+          "cy": 303.0,
+          "r": 3,
+          "fill": "#f7ead2"
+        }
+      ]
+    },
+    {
+      "id": "coral-flower-stamen-2",
+      "label": "Coral flower stamen 2",
+      "assembly": "coral-flower",
+      "pivot": [
+        302.85,
+        314.13
+      ],
+      "elevation": 2,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "circle",
+          "cx": 302.85,
+          "cy": 314.13,
+          "r": 3,
+          "fill": "#f7ead2"
+        }
+      ]
+    },
+    {
+      "id": "coral-flower-stamen-3",
+      "label": "Coral flower stamen 3",
+      "assembly": "coral-flower",
+      "pivot": [
+        316.44,
+        286.58
+      ],
+      "elevation": 2,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "circle",
+          "cx": 316.44,
+          "cy": 286.58,
+          "r": 3,
+          "fill": "#f7ead2"
+        }
+      ]
+    },
+    {
+      "id": "coral-flower-stamen-4",
+      "label": "Coral flower stamen 4",
+      "assembly": "coral-flower",
+      "pivot": [
+        325.03,
+        316.08
+      ],
+      "elevation": 2,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "circle",
+          "cx": 325.03,
+          "cy": 316.08,
+          "r": 3,
+          "fill": "#f7ead2"
+        }
+      ]
+    },
+    {
+      "id": "coral-flower-stamen-5",
+      "label": "Coral flower stamen 5",
+      "assembly": "coral-flower",
+      "pivot": [
+        298.77,
+        300.13
+      ],
+      "elevation": 2,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "circle",
+          "cx": 298.77,
+          "cy": 300.13,
+          "r": 3,
+          "fill": "#f7ead2"
+        }
+      ]
+    },
+    {
+      "id": "coral-flower-stamen-6",
+      "label": "Coral flower stamen 6",
+      "assembly": "coral-flower",
+      "pivot": [
+        328.9,
+        294.15
+      ],
+      "elevation": 2,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "circle",
+          "cx": 328.9,
+          "cy": 294.15,
+          "r": 3,
+          "fill": "#f7ead2"
+        }
+      ]
+    },
+    {
+      "id": "coral-flower-stamen-7",
+      "label": "Coral flower stamen 7",
+      "assembly": "coral-flower",
+      "pivot": [
+        310.72,
+        318.92
+      ],
+      "elevation": 2,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "circle",
+          "cx": 310.72,
+          "cy": 318.92,
+          "r": 3,
+          "fill": "#f7ead2"
+        }
+      ]
+    },
+    {
+      "id": "ivory-flower-petal-1",
+      "label": "Ivory flower petal 1",
+      "assembly": "ivory-flower",
+      "pivot": [
+        727,
+        312
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M727.00 312.00C702.52 336.44 661.36 321.49 646.25 288.85C674.72 271.84 715.07 286.56 727.00 312.00Z",
+          "fill": "#f7ead2"
+        }
+      ]
+    },
+    {
+      "id": "ivory-flower-petal-1-fold",
+      "label": "Ivory flower petal 1 fold",
+      "assembly": "ivory-flower",
+      "pivot": [
+        727,
+        312
+      ],
+      "elevation": 1,
+      "thickness": 0.5,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M727.00 312.00Q688.91 298.56 646.25 288.85C674.72 271.84 715.07 286.56 727.00 312.00Z",
+          "fill": "#e4d3ad"
+        }
+      ]
+    },
+    {
+      "id": "ivory-flower-petal-2",
+      "label": "Ivory flower petal 2",
+      "assembly": "ivory-flower",
+      "pivot": [
+        727,
+        312
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M727.00 312.00C693.09 302.27 683.78 255.84 703.48 224.22C733.20 241.66 742.27 287.21 727.00 312.00Z",
+          "fill": "#e4d3ad"
+        }
+      ]
+    },
+    {
+      "id": "ivory-flower-petal-2-fold",
+      "label": "Ivory flower petal 2 fold",
+      "assembly": "ivory-flower",
+      "pivot": [
+        727,
+        312
+      ],
+      "elevation": 1,
+      "thickness": 0.5,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M727.00 312.00Q718.05 269.24 703.48 224.22C733.20 241.66 742.27 287.21 727.00 312.00Z",
+          "fill": "#e5b591"
+        }
+      ]
+    },
+    {
+      "id": "ivory-flower-petal-3",
+      "label": "Ivory flower petal 3",
+      "assembly": "ivory-flower",
+      "pivot": [
+        727,
+        312
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M727.00 312.00C716.12 279.73 746.57 252.55 781.38 255.69C784.10 287.70 754.19 314.32 727.00 312.00Z",
+          "fill": "#e5b591"
+        }
+      ]
+    },
+    {
+      "id": "ivory-flower-petal-3-fold",
+      "label": "Ivory flower petal 3 fold",
+      "assembly": "ivory-flower",
+      "pivot": [
+        727,
+        312
+      ],
+      "elevation": 1,
+      "thickness": 0.5,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M727.00 312.00Q754.84 286.65 781.38 255.69C784.10 287.70 754.19 314.32 727.00 312.00Z",
+          "fill": "#f7ead2"
+        }
+      ]
+    },
+    {
+      "id": "ivory-flower-petal-4",
+      "label": "Ivory flower petal 4",
+      "assembly": "ivory-flower",
+      "pivot": [
+        727,
+        312
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M727.00 312.00C749.76 286.22 790.57 298.74 806.79 330.42C779.80 349.02 739.79 336.68 727.00 312.00Z",
+          "fill": "#f7ead2"
+        }
+      ]
+    },
+    {
+      "id": "ivory-flower-petal-4-fold",
+      "label": "Ivory flower petal 4 fold",
+      "assembly": "ivory-flower",
+      "pivot": [
+        727,
+        312
+      ],
+      "elevation": 1,
+      "thickness": 0.5,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M727.00 312.00Q764.75 323.20 806.79 330.42C779.80 349.02 739.79 336.68 727.00 312.00Z",
+          "fill": "#e4d3ad"
+        }
+      ]
+    },
+    {
+      "id": "ivory-flower-petal-5",
+      "label": "Ivory flower petal 5",
+      "assembly": "ivory-flower",
+      "pivot": [
+        727,
+        312
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M727.00 312.00C761.41 320.06 773.24 366.23 755.27 399.00C724.63 382.99 713.09 337.68 727.00 312.00Z",
+          "fill": "#e4d3ad"
+        }
+      ]
+    },
+    {
+      "id": "ivory-flower-petal-5-fold",
+      "label": "Ivory flower petal 5 fold",
+      "assembly": "ivory-flower",
+      "pivot": [
+        727,
+        312
+      ],
+      "elevation": 1,
+      "thickness": 0.5,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M727.00 312.00Q738.27 354.51 755.27 399.00C724.63 382.99 713.09 337.68 727.00 312.00Z",
+          "fill": "#e5b591"
+        }
+      ]
+    },
+    {
+      "id": "ivory-flower-petal-6",
+      "label": "Ivory flower petal 6",
+      "assembly": "ivory-flower",
+      "pivot": [
+        727,
+        312
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M727.00 312.00C739.34 343.90 709.80 373.27 674.59 372.29C670.48 340.14 699.49 311.38 727.00 312.00Z",
+          "fill": "#e5b591"
+        }
+      ]
+    },
+    {
+      "id": "ivory-flower-petal-6-fold",
+      "label": "Ivory flower petal 6 fold",
+      "assembly": "ivory-flower",
+      "pivot": [
+        727,
+        312
+      ],
+      "elevation": 1,
+      "thickness": 0.5,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M727.00 312.00Q700.02 339.35 674.59 372.29C670.48 340.14 699.49 311.38 727.00 312.00Z",
+          "fill": "#f7ead2"
+        }
+      ]
+    },
+    {
+      "id": "ivory-flower-heart",
+      "label": "Ivory flower heart",
+      "assembly": "ivory-flower",
+      "pivot": [
+        727,
+        312
+      ],
+      "elevation": 2,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "circle",
+          "cx": 727,
+          "cy": 312,
+          "r": 21.0,
+          "fill": "#ce9e52"
+        }
+      ]
+    },
+    {
+      "id": "ivory-flower-stamen-1",
+      "label": "Ivory flower stamen 1",
+      "assembly": "ivory-flower",
+      "pivot": [
+        740.44,
+        312.0
+      ],
+      "elevation": 2,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "circle",
+          "cx": 740.44,
+          "cy": 312.0,
+          "r": 3,
+          "fill": "#f7ead2"
+        }
+      ]
+    },
+    {
+      "id": "ivory-flower-stamen-2",
+      "label": "Ivory flower stamen 2",
+      "assembly": "ivory-flower",
+      "pivot": [
+        717.09,
+        321.08
+      ],
+      "elevation": 2,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "circle",
+          "cx": 717.09,
+          "cy": 321.08,
+          "r": 3,
+          "fill": "#f7ead2"
+        }
+      ]
+    },
+    {
+      "id": "ivory-flower-stamen-3",
+      "label": "Ivory flower stamen 3",
+      "assembly": "ivory-flower",
+      "pivot": [
+        728.17,
+        298.61
+      ],
+      "elevation": 2,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "circle",
+          "cx": 728.17,
+          "cy": 298.61,
+          "r": 3,
+          "fill": "#f7ead2"
+        }
+      ]
+    },
+    {
+      "id": "ivory-flower-stamen-4",
+      "label": "Ivory flower stamen 4",
+      "assembly": "ivory-flower",
+      "pivot": [
+        735.18,
+        322.67
+      ],
+      "elevation": 2,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "circle",
+          "cx": 735.18,
+          "cy": 322.67,
+          "r": 3,
+          "fill": "#f7ead2"
+        }
+      ]
+    },
+    {
+      "id": "ivory-flower-stamen-5",
+      "label": "Ivory flower stamen 5",
+      "assembly": "ivory-flower",
+      "pivot": [
+        713.77,
+        309.66
+      ],
+      "elevation": 2,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "circle",
+          "cx": 713.77,
+          "cy": 309.66,
+          "r": 3,
+          "fill": "#f7ead2"
+        }
+      ]
+    },
+    {
+      "id": "ivory-flower-stamen-6",
+      "label": "Ivory flower stamen 6",
+      "assembly": "ivory-flower",
+      "pivot": [
+        738.34,
+        304.79
+      ],
+      "elevation": 2,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "circle",
+          "cx": 738.34,
+          "cy": 304.79,
+          "r": 3,
+          "fill": "#f7ead2"
+        }
+      ]
+    },
+    {
+      "id": "ivory-flower-stamen-7",
+      "label": "Ivory flower stamen 7",
+      "assembly": "ivory-flower",
+      "pivot": [
+        723.51,
+        324.98
+      ],
+      "elevation": 2,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "circle",
+          "cx": 723.51,
+          "cy": 324.98,
+          "r": 3,
+          "fill": "#f7ead2"
+        }
+      ]
+    },
+    {
+      "id": "top-bud",
+      "label": "Top bud",
+      "assembly": "bud",
+      "pivot": [
+        574,
+        225
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M574.00 225.00C548.51 206.51 554.88 164.78 581.06 144.31C600.67 167.98 594.38 208.90 574.00 225.00Z",
+          "fill": "#ce9e52"
+        }
+      ]
+    },
+    {
+      "id": "top-bud-fold",
+      "label": "Top bud fold",
+      "assembly": "bud",
+      "pivot": [
+        574,
+        225
+      ],
+      "elevation": 1,
+      "thickness": 0.5,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M574.00 225.00Q579.54 186.46 581.06 144.31C600.67 167.98 594.38 208.90 574.00 225.00Z",
+          "fill": "#e5b591"
+        }
+      ]
+    },
+    {
+      "id": "foreground-1",
+      "label": "Foreground 1",
+      "assembly": "foreground",
+      "pivot": [
+        279,
+        679
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M279.00 679.00C254.19 686.73 219.08 661.55 209.39 633.79C236.90 632.58 271.31 657.31 279.00 679.00Z",
+          "fill": "#d97869"
+        }
+      ]
+    },
+    {
+      "id": "foreground-1-fold",
+      "label": "Foreground 1 fold",
+      "assembly": "foreground",
+      "pivot": [
+        279,
+        679
+      ],
+      "elevation": 1,
+      "thickness": 0.5,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M279.00 679.00Q246.46 655.96 209.39 633.79C236.90 632.58 271.31 657.31 279.00 679.00Z",
+          "fill": "#e5b591"
+        }
+      ]
+    },
+    {
+      "id": "foreground-2",
+      "label": "Foreground 2",
+      "assembly": "foreground",
+      "pivot": [
+        290,
+        686
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M290.00 686.00C266.89 671.95 259.83 625.12 272.64 596.67C293.03 617.74 299.92 663.68 290.00 686.00Z",
+          "fill": "#d97869"
+        }
+      ]
+    },
+    {
+      "id": "foreground-2-fold",
+      "label": "Foreground 2 fold",
+      "assembly": "foreground",
+      "pivot": [
+        290,
+        686
+      ],
+      "elevation": 1,
+      "thickness": 0.5,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M290.00 686.00Q283.24 642.82 272.64 596.67C293.03 617.74 299.92 663.68 290.00 686.00Z",
+          "fill": "#e5b591"
+        }
+      ]
+    },
+    {
+      "id": "foreground-3",
+      "label": "Foreground 3",
+      "assembly": "foreground",
+      "pivot": [
+        303,
+        691
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M303.00 691.00C295.75 666.95 320.60 636.15 347.67 629.51C348.55 655.52 324.15 685.70 303.00 691.00Z",
+          "fill": "#d97869"
+        }
+      ]
+    },
+    {
+      "id": "foreground-3-fold",
+      "label": "Foreground 3 fold",
+      "assembly": "foreground",
+      "pivot": [
+        303,
+        691
+      ],
+      "elevation": 1,
+      "thickness": 0.5,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M303.00 691.00Q325.74 662.43 347.67 629.51C348.55 655.52 324.15 685.70 303.00 691.00Z",
+          "fill": "#e5b591"
+        }
+      ]
+    },
+    {
+      "id": "foreground-4",
+      "label": "Foreground 4",
+      "assembly": "foreground",
+      "pivot": [
+        718,
+        677
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M718.00 677.00C693.25 680.54 667.09 651.54 664.97 623.97C690.60 626.97 716.23 655.43 718.00 677.00Z",
+          "fill": "#78968a"
+        }
+      ]
+    },
+    {
+      "id": "foreground-4-fold",
+      "label": "Foreground 4 fold",
+      "assembly": "foreground",
+      "pivot": [
+        718,
+        677
+      ],
+      "elevation": 1,
+      "thickness": 0.5,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M718.00 677.00Q693.68 650.41 664.97 623.97C690.60 626.97 716.23 655.43 718.00 677.00Z",
+          "fill": "#416b70"
+        }
+      ]
+    },
+    {
+      "id": "foreground-5",
+      "label": "Foreground 5",
+      "assembly": "foreground",
+      "pivot": [
+        729,
+        674
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M729.00 674.00C710.95 654.41 717.72 609.11 738.20 586.48C751.63 611.78 744.95 656.21 729.00 674.00Z",
+          "fill": "#78968a"
+        }
+      ]
+    },
+    {
+      "id": "foreground-5-fold",
+      "label": "Foreground 5 fold",
+      "assembly": "foreground",
+      "pivot": [
+        729,
+        674
+      ],
+      "elevation": 1,
+      "thickness": 0.5,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M729.00 674.00Q735.01 632.16 738.20 586.48C751.63 611.78 744.95 656.21 729.00 674.00Z",
+          "fill": "#416b70"
+        }
+      ]
+    },
+    {
+      "id": "foreground-6",
+      "label": "Foreground 6",
+      "assembly": "foreground",
+      "pivot": [
+        741,
+        671
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M741.00 671.00C744.16 646.08 779.39 628.05 806.82 633.00C797.05 657.12 762.48 674.76 741.00 671.00Z",
+          "fill": "#78968a"
+        }
+      ]
+    },
+    {
+      "id": "foreground-6-fold",
+      "label": "Foreground 6 fold",
+      "assembly": "foreground",
+      "pivot": [
+        741,
+        671
+      ],
+      "elevation": 1,
+      "thickness": 0.5,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M741.00 671.00Q773.39 654.15 806.82 633.00C797.05 657.12 762.48 674.76 741.00 671.00Z",
+          "fill": "#416b70"
+        }
+      ]
+    },
+    {
+      "id": "bird-tail",
+      "label": "Bird tail",
+      "assembly": "bird",
+      "pivot": [
+        657,
+        169
+      ],
+      "elevation": 4,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M650 180L614 178L640 161L663 164Z",
+          "fill": "#ce9e52"
+        }
+      ]
+    },
+    {
+      "id": "bird-wing-back",
+      "label": "Bird wing back",
+      "assembly": "bird",
+      "pivot": [
+        671,
+        168
+      ],
+      "elevation": 5,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M664 172Q638 116 664 83Q686 123 682 163Z",
+          "fill": "#416b70"
+        }
+      ]
+    },
+    {
+      "id": "bird-wing-front",
+      "label": "Bird wing front",
+      "assembly": "bird",
+      "pivot": [
+        671,
+        168
+      ],
+      "elevation": 4,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M662 171Q693 117 743 123Q720 164 680 183Z",
+          "fill": "#f7ead2"
+        }
+      ]
+    },
+    {
+      "id": "bird-wing-fold",
+      "label": "Bird wing fold",
+      "assembly": "bird",
+      "pivot": [
+        671,
+        168
+      ],
+      "elevation": 1,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M662 171Q708 145 743 123Q720 164 680 183Z",
+          "fill": "#e5b591"
+        }
+      ]
+    },
+    {
+      "id": "bird-body",
+      "label": "Bird body",
+      "assembly": "bird",
+      "pivot": [
+        685,
+        183
+      ],
+      "elevation": 3,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M641 178Q674 151 690 177Q705 190 720 171L732 179Q709 213 679 200Q658 193 641 178Z",
+          "fill": "#d97869"
+        }
+      ]
+    },
+    {
+      "id": "bird-beak",
+      "label": "Bird beak",
+      "assembly": "bird",
+      "pivot": [
+        724,
+        177
+      ],
+      "elevation": 1,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "path",
+          "d": "M721 172L747 177L730 183Z",
+          "fill": "#ce9e52"
+        }
+      ]
+    },
+    {
+      "id": "bird-eye",
+      "label": "Bird eye",
+      "assembly": "bird",
+      "pivot": [
+        724,
+        175
+      ],
+      "elevation": 2,
+      "thickness": 1.2,
+      "shapes": [
+        {
+          "tag": "circle",
+          "cx": 724,
+          "cy": 175,
+          "r": 2.3,
+          "fill": "#293e50"
+        }
+      ]
+    }
+  ]
+}

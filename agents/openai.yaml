@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pequenos mundos em SVG"
+  short_description: "SVG em camadas com perfis de desenho e material"
+  default_prompt: "Use $paper-worlds-svg para criar arte SVG em camadas, escolhendo desenho, construção e acabamento conforme minhas referências."

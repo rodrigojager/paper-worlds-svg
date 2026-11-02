@@ -1,0 +1,7 @@
+{
+  "id": "origami",
+  "name": "Faces de papel dobrado",
+  "drawing": {"guidance": "Desenhe faces com vincos coerentes e eixos compartilhados. O renderer não transforma curvas em origami nem inventa dobras. Escolha a anatomia conforme a referência.", "references": []},
+  "construction": {"kind": "origami", "thickness": 0.5, "border": {"width": 0, "color": "#ffffff"}},
+  "finish": {"texture": false, "surfaceShading": false, "rim": {"width": 0}, "shadow": {"enabled": true, "dx": 0.8, "dy": 1.5, "blur": 0.6, "opacity": 0.22, "hardOpacity": 0.2}}
+}

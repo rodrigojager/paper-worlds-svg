@@ -1,0 +1,7 @@
+{
+  "id": "layered-card",
+  "name": "Cartolinas empilhadas com textura",
+  "drawing": {"guidance": "Organize recortes com espessura e oclusões legíveis. Preserve as formas estabelecidas pelo brief; acabamento não define anatomia.", "references": []},
+  "construction": {"kind": "layered", "thickness": 1.1, "border": {"width": 0, "color": "#ffffff"}},
+  "finish": {"texture": true, "surfaceShading": true, "rim": {"width": 0.45, "color": "#fff8e7", "opacity": 0.3}, "shadow": {"enabled": true, "dx": 1, "dy": 2.5, "blur": 1.4, "opacity": 0.22, "hardOpacity": 0.18}}
+}

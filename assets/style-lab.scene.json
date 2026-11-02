@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "id": "style-lab",
+  "title": "Laboratório de camadas e sombras",
+  "viewBox": [0, 0, 800, 600],
+  "seed": 24,
+  "layers": [
+    {
+      "id": "board", "label": "Suporte de papel", "assembly": "board", "role": "paper", "pivot": [400, 300],
+      "shapes": [{"tag": "rect", "x": 105, "y": 85, "width": 590, "height": 440, "rx": 42, "fill": "#75b4b2"}]
+    },
+    {
+      "id": "contact-flap", "label": "Papel próximo: sombra curta", "role": "paper", "assembly": "left-flap", "pivot": [208, 255],
+      "finish": {"shadow": {"enabled": true, "dx": 0.8, "dy": 1.2, "blur": 0.6, "opacity": 0.2, "hardOpacity": 0.18}},
+      "shapes": [{"tag": "path", "d": "M160 180L285 225L177 350Q146 269 160 180Z", "fill": "#e5a64e"}]
+    },
+    {
+      "id": "raised-flap", "label": "Papel afastado: sombra longa e difusa", "role": "paper", "assembly": "right-flap", "pivot": [575, 270],
+      "finish": {"shadow": {"enabled": true, "dx": 12, "dy": 17, "blur": 8, "opacity": 0.32, "hardOpacity": 0.24, "color": "#394666"}},
+      "shapes": [{"tag": "path", "d": "M520 200Q604 134 657 165L613 364Q564 317 520 200Z", "fill": "#df748d"}]
+    },
+    {
+      "id": "face", "label": "Rosto: papel físico", "role": "paper", "assembly": "portrait", "cutout": "portrait", "pivot": [400, 340],
+      "shapes": [{"tag": "path", "d": "M300 280Q300 173 400 169Q501 175 500 280L487 390Q463 444 400 452Q337 443 313 390Z", "fill": "#efbc92"}]
+    },
+    {
+      "id": "nose-shadow", "label": "Sombra do nariz: efeito exportável", "role": "shadow", "assembly": "portrait", "follows": "nose", "clipTo": "face", "opacity": 0.26,
+      "shapes": [{"tag": "path", "d": "M399 289L446 343Q420 369 391 341Z", "fill": "#9a5d70"}]
+    },
+    {
+      "id": "nose", "label": "Nariz: sombra automática desligada", "role": "paper", "assembly": "portrait", "cutout": "portrait", "pivot": [400, 291], "castsShadow": false,
+      "shapes": [{"tag": "path", "d": "M399 267L421 329Q411 343 389 330Z", "fill": "#f9cda0"}]
+    },
+    {
+      "id": "eyes", "label": "Olhos impressos: sem relevo", "role": "ink", "assembly": "portrait", "follows": "face", "clipTo": "face",
+      "shapes": [{"tag": "ellipse", "cx": 352, "cy": 284, "rx": 9, "ry": 12, "fill": "#334760"}, {"tag": "ellipse", "cx": 450, "cy": 284, "rx": 9, "ry": 12, "fill": "#334760"}]
+    },
+    {
+      "id": "smile", "label": "Contorno em tinta: sem espessura", "role": "contour", "assembly": "portrait", "follows": "face", "clipTo": "face",
+      "shapes": [{"tag": "path", "d": "M363 371Q402 402 441 369", "fill": "none", "stroke": "#934c66", "stroke-width": 5, "stroke-linecap": "round"}]
+    },
+    {
+      "id": "cheek-light", "label": "Área de luz: efeito não físico", "role": "highlight", "assembly": "portrait", "follows": "face", "clipTo": "face", "opacity": 0.35,
+      "shapes": [{"tag": "ellipse", "cx": 340, "cy": 336, "rx": 18, "ry": 9, "fill": "#fff4d8"}]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "cutout",
+  "name": "Recorte com borda externa branca",
+  "drawing": {"guidance": "Escolha a linguagem dos personagens pelo brief. Borda externa branca não define rosto ou contornos internos. Detalhes impressos usam ink/contour, sem relevo.", "references": []},
+  "construction": {"kind": "cutout", "thickness": 0, "border": {"width": 7, "color": "#ffffff"}},
+  "finish": {"texture": false, "surfaceShading": false, "rim": {"width": 0}, "shadow": {"enabled": false}}
+}
